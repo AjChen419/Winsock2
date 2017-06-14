@@ -6,6 +6,8 @@
 
 //#pragma comment(lib, "Ws2_32.lib")
 
+WSADATA wsaData;
+struct addrinfo *result = NULL, *ptr = NULL, hints;
 
 int main() {
 

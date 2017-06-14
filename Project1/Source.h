@@ -6,6 +6,3 @@
 
 
 #define DEFAULT_PORT "27015"
-WSADATA wsaData;
-
-struct addrinfo *result = NULL, *ptr = NULL, hints;
